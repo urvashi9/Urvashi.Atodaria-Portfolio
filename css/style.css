@@ -70,3 +70,40 @@ ul.navigation-items {
 	font-family:'Yeseva One',Georgia,sans-serif;
 	font-size: 21px;
 }
+.projects-section .projects .list li{
+	list-style-type: none;
+	display:inline-block;
+	padding-left:15px;
+}
+.projects-section .projects ul{
+	margin-top:35px;
+	margin-left: 25px;
+}
+.projects-section{
+	text-align: center;
+	font-family:'Abril Fatface',Georgia,sans-serif;
+}
+.projects-section > .projects{
+	width:100%;
+	background-color:#eeeeee;
+}
+.projects-section .projects > h1{
+	letter-spacing:1.5px;
+	font-size:2.5em;
+}
+.projects-section .projects a:link,a:visited{
+	color:#000;
+	text-decoration: none;
+}
+.projects-section .projects a:hover{
+	color:#616161;
+}
+.projects-section .projects .text{
+	letter-spacing:1px;
+	font-weight: lighter;
+}
+.projects-section .projects > p {
+    font-size: 20px;
+    margin-top: 40px;
+    font-style: italic;
+}
