@@ -1,5 +1,25 @@
 /**picjumbo.com**/
 
+@keyframes animation1{
+	0%{
+		color:#eeeeee;
+	}
+	20%{
+		color:#bdbdbd;
+	}
+	40%{
+		color:#757575;
+	}
+	60%{
+		color:#424242;
+	}
+	80%{
+		color:#212121;
+	}
+	100%{
+		color:#000000;
+	}
+}
 
 html{
 	-webkit-font-smoothing:antialiased;
@@ -9,10 +29,7 @@ html{
   box-sizing: inherit;
 }
 body{
-	background-color:gray;
-}
-div{
-	border:1px solid orange;
+	background-color:#eeeeee;
 }
 .top-navigation{
 	background-color: #fff;
@@ -106,4 +123,72 @@ ul.navigation-items {
     font-size: 20px;
     margin-top: 40px;
     font-style: italic;
+    animation: animation1 5s linear 0s infinite;
+}
+.blogpost{
+	width: 1263px;
+	height: 245px;
+	background-color:#e0e0e0;
+}
+.blogpost >.blogpost-content{
+	text-align:center;
+	padding: 4.5rem;
+	font-family:'Abril Fatface',Georgia,sans-serif;
+	font-size: 21px;
+}
+.blogpost .blogpost-content > h1{
+	margin :0 auto;
+}
+.blogpost .blogpost-content > p{
+	font-style:italic;
+	animation: animation1 5s linear 0s infinite;
+}
+.social > .social-content{
+	text-align: center;
+}
+.social .social-content h1{
+	font-size:2.5em;
+	letter-spacing: 1.5px;
+}
+.social .icons{
+	display:block;
+	list-style-type: none;
+}
+.social .icons >li{
+	border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #bbdefb;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .twitter a:link,a:hover,a:visited{
+	color:#55acee;
+}
+.social .facebook a:link,a:hover,a:visited{
+	color:#4c66a4;
+}
+.social .instagram a:link,a:hover,a:visited{
+	color:#3f729b;
+}
+
+.social .social-content > p{
+	margin-left: 2.25rem;
+	font-size: 1.3em;
+}
+.social .social-content .details li{
+	list-style-type: none;
+	font-size: 1.3em;
+}
+.social{
+	background-color:#eeeeee;
+	text-align: center;
+	font-family:'Abril Fatface',Georgia,sans-serif;
+
+}
+.social .social-content .details a:link,a:hover,a:visited{
+	text-decoration: none;
+	color:#616161;
 }
