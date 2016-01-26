@@ -1,4 +1,3 @@
-/**picjumbo.com**/
 
 @keyframes animation1{
 	0%{
@@ -59,10 +58,8 @@ body{
 .top-navigation .navigation-items{
 	float:right;
 }
-li.display-name {
-	position:fixed;
-	top:1rem;
-	left:10rem;
+.top-navigation .navigation-content .navigation-items .display-name a{
+	padding-right:19rem;
 }
 ul.navigation-items {
     margin-top: 15px;
