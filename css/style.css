@@ -71,7 +71,7 @@ ul.navigation-items {
 	background-image:url('../background.jpg');
 	background-position: center bottom;
 	background-repeat:no-repeat;
-	background-size: contain;
+	background-size: cover;
 	overflow:hidden;
 	height: 26.5rem;
 }
@@ -189,3 +189,4 @@ ul.navigation-items {
 	text-decoration: none;
 	color:#616161;
 }
+@media only screen and (max-width: 500px) { .top-navigation .navigation-content li { font-size: 1em; } }
