@@ -133,10 +133,14 @@ ul.navigation-items {
     font-size: 20px;
     margin-top: 40px;
     font-style: italic;
+<<<<<<< HEAD
     animation: animation1 3s linear 0s infinite;
 }
 .blogpost{
 	
+    animation: animation1 3s linear 0s infinite;
+}
+.blogpost{
 	height: 245px;
 	background-color:#e0e0e0;
 }
